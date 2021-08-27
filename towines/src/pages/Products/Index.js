@@ -7,6 +7,9 @@ import { Header } from "../../components/Header/Index";
 // import styled from "styled-components";
 
 export const ProductsPage = () => {
+
+// REQ API
+
     const [wines, setWines] = useState([])
 
     useEffect(() => {
@@ -18,21 +21,22 @@ export const ProductsPage = () => {
             })
     }, [])
 
-    console.log(wines)
+    // console.log(wines)  
+
+    // API 
 
     return (
         <div className={styled.bodyContainer}>
-            <Header/>
-                
+            <Header />
             <div className={styled.wineContaienr}>
                 <div className={styled.testeContainer}>
-                {wines.map((wines, key) => {
-                    return (
+                    {wines.map((wines, key) => {
+                        return (
 
-                        <CardProduct key={key} wines={wines} />
+                            <CardProduct key={key} wines={wines} />
 
-                    )
-                })}
+                        )
+                    })}
                 </div>
             </div>
         </div>

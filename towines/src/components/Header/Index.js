@@ -10,7 +10,7 @@ export const Header = () => {
             <div className={styled.navbarContainer}>
                 <a className={styled.tagA} href="/"><p>HOME</p></a>
                 <a className={styled.tagA} href="products"><p>PRODUCTS</p></a>
-                <a className={styled.tagA} href="faqs"><p>FAQS</p></a>
+                <a className={styled.tagA} href="search"><p>SEARCH</p></a>
                 <a className={styled.tagA} href="about"><p>ABOUT</p></a>
             </div>
         </div>
