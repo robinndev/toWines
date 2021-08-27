@@ -2,25 +2,26 @@ import React from "react"
 import styled from "./styled.module.scss"
 import teste from "../../assets/teste.png"
 
-export const CardProduct = () => {
+
+export const CardProduct = (props) => {
     return (
-        <div>
+        <div className={styled.bodyContainer}>
             <div className={styled.cardContainer}>
 
                 <div className={styled.wineContainer}>
-                    <img src={teste} className={styled.wineImg} />
+                    <img src={props.wines.image} className={styled.wineImg} />
                 </div>
 
                 <div className={styled.atributesContainer}>
-                    <p>Wine:</p>
-                    <p>Winery:</p>
-                    <p>Location:</p>
+                    <p>{props.wines.name}</p>
+                    <p>{props.wines.winery}</p>
+                    <p>{props.wines.location}</p>
                 </div>
 
 
                 <div className={styled.revierContainer}>
-                    <p>review:</p>
-                    <p>average:</p>
+                    <p>{props.wines.rating.reviews}</p>
+                    <p>{props.wines.rating.average}</p>
                 </div>
 
 

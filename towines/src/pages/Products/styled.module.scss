@@ -1,0 +1,20 @@
+.bodyContainer {
+    // max-width: 100vw;
+    // display: flex;
+    // background-color: powderblue;
+
+    .wineContaienr {
+        // width: 100vw;
+        display: flex;
+        // flex: 1 1 1 200px;
+        // background-color: red;
+
+        .testeContainer {
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+            flex: 1 1 200px;
+            flex-wrap: wrap;
+        }
+    }
+}
