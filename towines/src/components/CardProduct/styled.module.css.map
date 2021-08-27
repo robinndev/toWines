@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "styled.module.scss"
+    ],
+    "names": [],
+    "file": "styled.module.css"
+}
