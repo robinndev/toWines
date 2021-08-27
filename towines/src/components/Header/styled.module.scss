@@ -1,0 +1,32 @@
+.headerContainer {
+    background-color: #ded9df;
+    // width: 100vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logoImage {
+        // background-color: powderblue;
+        width: 5vw;
+        height: 6vh;
+    }
+
+    .navbarContainer {
+        // background-color: red;
+        display: flex;
+        justify-content: space-evenly;
+        width: 30vw;
+        color: #989399;
+        font-weight: 200;
+        font-family: Montserrat;
+
+        .tagA {
+            text-decoration: none !important;
+        }
+
+        .tagA::after {
+            color: #989399;
+        }
+    }
+}

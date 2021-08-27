@@ -3,6 +3,7 @@ import { BASE_URL } from "../../services/url"
 import api from "../../services/api"
 import styled from "../Products/styled.module.scss"
 import { CardProduct } from "../../components/CardProduct/index"
+import { Header } from "../../components/Header/Index";
 // import styled from "styled-components";
 
 export const ProductsPage = () => {
@@ -21,10 +22,8 @@ export const ProductsPage = () => {
 
     return (
         <div className={styled.bodyContainer}>
-            <header>
-                <h1>Hello World</h1>   
-            </header>
-
+            <Header/>
+                
             <div className={styled.wineContaienr}>
                 <div className={styled.testeContainer}>
                 {wines.map((wines, key) => {
