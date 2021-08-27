@@ -10,7 +10,7 @@ CSS e Javascript puro, mas não estava gostando do resultado, então o refiz uti
 
 # Getting started
 # Requirements
-# Before start, you need to install: Git, Node.js(LTS version)..
+  Before start, you need to install: Git, Node.js(LTS version)..
 
 # Clone this repo to your local machine using:
 $ git clone https://github.com/robinndev/toWines.git
@@ -36,5 +36,22 @@ All third-party libraries and API selected are production-grade and at its most 
 - axios
 - WinesAPI
 - Javascript
+
+# Clone this repo to your local machine using:
+$ git clone git@github.com:Afonsofn/pokedex.git
+
+# Go to pokedex folder;
+$ cd pokedex
+
+# Install project dependencies;
+$ npm install
+// or
+$ yarn install
+
+# Run project in development mode;
+$ npm run dev
+// or
+$ yarn dev
+
 
 
