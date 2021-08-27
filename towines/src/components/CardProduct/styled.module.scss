@@ -1,6 +1,10 @@
 
-.cardContainer { 
+.bodyContainer{
     // background-color: red;
+}
+
+.cardContainer { 
+    // background-color: purple;
     width: 30vw;
     height: 50vh;
     // display: flex;
@@ -9,11 +13,19 @@
     border: 1px solid #989399;
 
     .wineContainer {
-        background-color: blue;
+        // background-color: blue;
+     
     }
 
     .atributesContainer {
-        background-color: red;
+        // background-color: red;
+        height: 15vh;
+        // margin-top: 5vh;
+        display: flex;
+        // align-items: center;
+        font-family: Montserrat;
+        // display: flex;
+        // align-items: center;
     }
 
     .wineImg {
@@ -25,7 +37,8 @@
 
     .revierContainer {
         margin-top: 1vh;
-        background-color: green;
+        // background-color: green;
+        font-family: Montserrat;
         height: 13vh;
     }
 }

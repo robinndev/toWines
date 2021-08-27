@@ -1,35 +1,41 @@
-import React, {useEffect, useState} from "react";
-import {BASE_URL} from "../../services/url"
+import React, { useEffect, useState } from "react";
+import { BASE_URL } from "../../services/url"
 import api from "../../services/api"
+import styled from "../Products/styled.module.scss"
+import { CardProduct } from "../../components/CardProduct/index"
+// import styled from "styled-components";
 
 export const ProductsPage = () => {
     const [wines, setWines] = useState([])
 
-  useEffect(() => {
-    api
-    .get(BASE_URL)
-    .then((res) => setWines(res.data))
-    .catch((err) => {
-        console.error("ops! ocorreu um erro" + err)
-    })
-  },[])
+    useEffect(() => {
+        api
+            .get(BASE_URL)
+            .then((res) => setWines(res.data))
+            .catch((err) => {
+                console.error("ops! ocorreu um erro" + err)
+            })
+    }, [])
 
-  console.log(wines)
+    console.log(wines)
 
-return(
-    <div>
+    return (
+        <div className={styled.bodyContainer}>
+            <header>
+                <h1>Hello World</h1>   
+            </header>
 
-    {wines.map((wines, key) => {
-        return(
-            <div key={key}>
-            <h1>{wines.wine}</h1>
-            <img src={wines.image}/>
-            <h1>{wines.id}</h1>
+            <div className={styled.wineContaienr}>
+                <div className={styled.testeContainer}>
+                {wines.map((wines, key) => {
+                    return (
+
+                        <CardProduct key={key} wines={wines} />
+
+                    )
+                })}
+                </div>
             </div>
-        )
-    })}
-
-    <h1>Hello World4</h1>
-    </div>
-)
+        </div>
+    )
 }
