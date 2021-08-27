@@ -4,12 +4,8 @@
 }
 
 .cardContainer { 
-    // background-color: purple;
     width: 30vw;
     height: 50vh;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
     border: 1px solid #989399;
 
     .wineContainer {
@@ -20,12 +16,8 @@
     .atributesContainer {
         // background-color: red;
         height: 15vh;
-        // margin-top: 5vh;
-        display: flex;
-        // align-items: center;
-        font-family: Montserrat;
         // display: flex;
-        // align-items: center;
+        font-family: Montserrat;
     }
 
     .wineImg {
@@ -42,3 +34,20 @@
         height: 13vh;
     }
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+
+    .wineImg{
+        width: 10vw !important;
+        margin-left: 35vw !important;
+        // height: 70vh;
+    }
+
+    .cardContainer {
+        width: 80vw;
+        margin-left: 10vw !important;
+    }
+
+
+    }
