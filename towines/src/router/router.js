@@ -23,7 +23,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {FaqsPage} from "../pages/Faqs/Index"
 import { HomePage } from "../pages/Home/Index.js";
-import { AboutPage } from "../pages/About/Index";
+import { AboutPage } from "../pages/About/Index.js";
 import {ProductsPage} from "../pages/Products/Index.js"
 
 export const Router = () => {

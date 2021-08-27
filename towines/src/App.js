@@ -1,25 +1,13 @@
-// import {Rotas} from "./router/router"
-
-// function App() {
-//   return (
-//   <div>
-//     <Rotas/>
-//   </div>
-//   );
-// }
-
-// export default App;
-
 import React from "react";
-// import { BrowserRouter } from "react-router-dom";
 import {Router} from "./router/router"
-// import GlobalState from './global/GlobalState';
-
+import styled from "./styles/global.scss"
+// import GlobalStyle from "./styles/globalStyle"
 
 const App = () => {
 
   return (
     <div>
+      {/* <GlobalStyle/> */}
       <Router />
     </div>
 

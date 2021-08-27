@@ -1,0 +1,66 @@
+
+
+.bodyContainer {
+    // margin-top: 1p;
+    background-image: url(../../assets/walpapper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center;
+    width: 100vw;
+    height: 100vh;
+
+    .headerContainer {
+        // background-color: red;
+        width: 100vw;
+        height: 12vh;
+
+        .logoImg {
+            width: 6vw;
+            // background-color: blue;
+            margin-left: 3vw;
+            margin-top: 3vh;
+        }
+    }
+
+    .mainContainer {
+        // background-color: green;
+        width: 100vw;
+        height: 88vh;
+        display: flex;
+        align-items: center;
+        justify-content: initial;
+
+        .textContainer {
+            // background-color: white;
+            width: 40vw;
+            height: 50vh;
+            margin-left: 10vw;
+            margin-top: 4vh;
+
+            .textPrincipal {
+                color: #989399;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 50px;
+                
+            }
+
+            .buttonProducts {
+                background-color: transparent;
+                padding: 10px;
+                border: 1px solid #989399;
+                color: #989399;
+                margin-top: 2.5vh;
+            }
+
+            .subtitleText {
+                font-family: 'Montserrat', sans-serif;
+                color: #989399;
+            }
+        }
+    }
+}
+
+
+// .bodyContainer {
+//     background-color: red;
+// }
