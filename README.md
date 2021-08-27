@@ -19,6 +19,7 @@ $ git clone https://github.com/robinndev/toWines.git
 
 # Go to toWines folder;
 $ cd toWines
+$ cd towines
 
 # Install project dependencies;
 $ npm install
